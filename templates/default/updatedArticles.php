@@ -1,0 +1,1 @@
+<li><a href="<?php echo $link; ?>"><?php echo $title; ?>,<?php echo date('dS M',$date); ?></a></li>

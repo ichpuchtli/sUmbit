@@ -1,0 +1,1 @@
+<li><a <?php echo $id; ?>href="<?php echo _ADMIN.$item; ?>"><?php echo l($item); ?></a></li>

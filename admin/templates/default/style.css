@@ -1,0 +1,62 @@
+/*__ TAGS__ */
+*{margin:0; padding:0}
+body{font-family:"Trebuchet MS",arial,sans-serif;  font-size:.78em; color:#666;}
+a {text-decoration:none;color:#83B82E;}
+a:hover, legend a {color:#555;}
+p{ padding:0px 0px 16px 0px;  line-height:1.7em}
+h1{font-size:108%;  letter-spacing:.1em}
+h2{margin:0px;  padding:0px 0px 4px 0px;  font-size:100%;  letter-spacing:.1em}
+ul{margin:8px 0px 0px 16px;  padding:0px}
+ul li{list-style-type:square;  margin:0px 0px 11px 0px;  padding:0px}
+ol{margin:8px 0px 0px 24px;  padding:0px}
+ol li{margin:0px 0px 11px 0px;  padding:0px}
+h1{color:#83B82E}
+fieldset {padding:8px;border:1px solid #ccc;font-size:0.9em}
+legend {padding:8px;font-weight:bold;font-size:1.1em}
+input, textarea {padding:5px; margin:2px 0px 2px 0px; border-left:1px solid #FFF;border-right:none;border-top:none;border-bottom:none;color:#666;font-size:1.2em;background:#d4f1c3;}
+input:hover, textarea:hover ,textarea:focus,input:focus{padding:5px;background:#BEFC99;color:#410366;}
+textarea:focus,input:focus{border-left:2px solid #FFF;}
+textarea.form_textarea {width:99%;height:12em;}
+textarea.large_textarea {width:99%;}
+input.form_input {width:35%;}
+input.form_submit {background:#eee;border:1px solid #ccc;}
+/* sumbit shit */
+ul.templates li.template {padding:2px;margin:0px;list-style:none;font-weight:bold;}
+input.picker {margin:5px;}
+.billBoard {font-family: "Trebuchet MS", "verdana", "sans-serif";background:#E3F4FF;border:1px solid #7EC6F6;margin:20px 0;padding:5px;text-align:center;}
+table.adminTables {padding:3px;border:solid 1px #ccc}
+table.adminTables td{text-align:center; padding:4px}
+table.adminTables tbody tr:hover, table.adminTables  tbody tr.templateSelected{background:#DCEADE;}
+th{text-align:center; padding:3px}
+/* ID's */
+#links, #footer{height:80px;  padding:18px 0px 0px 0px;}
+#links{text-align:right;  padding:10px 10px 0px 0px}
+#links a {color:#fff;}
+#links a:hover {color:#555;}
+#footer{text-align:center;  border-top:4px solid}
+#logo{padding-left:19px;  float:left}
+#logo h1{font-family:verdana,arial,sans-serif;  margin:0px;  padding:18px 0px 0px 0px;  font-size:160%;  letter-spacing:.2em;  text-transform:uppercase;color:#fff;}
+#logo h2{font-family:verdana,arial,sans-serif;  margin:0px;  padding:5px 0px 0px 0px;  font-size:108%;  letter-spacing:.2em; color:#555;}
+#menu{height:40px;  border-bottom:1px solid}
+#menu ul{margin:0px auto}
+#menu li{float:left;  margin:0px 0px 0px 0px;  padding:0px;  list-style:none}
+#menu li a{display:block;  float:left;  height:27px;  text-decoration:none;  padding:11px 19px 2px 19px;  text-transform:uppercase;  font-size:88%;  border-right:1px solid}
+#content{height:auto;  padding:20px 0px 0px 0px;  overflow:hidden}
+#column1{float:right;  width:220px;  padding:4px 15px 15px 19px}
+#column2{text-align:justify;   padding:0px 0px 15px 20px;   margin:0px 270px 0px 0px}
+#column2 h1{font-family:arial,sans-serif;   margin:0px 0px 12px 0px;   font-size:150%;   text-transform:uppercase;   font-weight:normal}
+#links_container{background:#95C359;   color:#FFF}
+#footer{background:#555;   color:#FFF;   border-color:#83B82E}
+#content{background:url(images/side.png) right repeat-y}
+#menu{background:#444 url(images/menu.png);   color:#FFF}
+#menu li a{background:transparent;   color:#E2E2E2;   border-color:#6C6C6C}
+#menu li a:hover, #menu li a#selected, #menu li a#selected:hover, #footer a{background:#555;   color:#83B82E}
+/* classes */
+#column1{text-align:left;   margin:0px 0px 25px 0px}
+#column1 ul{margin:5px}
+#column1 ul li{margin:0px; list-style:none;}
+#column1 ul li strong{color:#444}
+#column1 li a, #column1 li a:hover{float:left;  height:16px;  text-decoration:none;  padding:5px 0px 4px 19px;  width:169px;  border:0px}
+#column1 a, #column1 a:hover{padding:0px 0px 2px 19px;  text-decoration:none}
+#column1 li a, #column1 a{background:transparent url(images/arrow.png) no-repeat left center;   color:#555}
+#column1 li a:hover, #column1 a:hover{background:transparent url(images/green_arrow.png) no-repeat left center;  color:#555}

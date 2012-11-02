@@ -1,0 +1,1 @@
+<a href="<?php echo _PLACE.'rssArticles'; ?>"><img src="images/rss_icon.png" style="vertical-align:middle;"><?php echo l('rss_articles'); ?></a>

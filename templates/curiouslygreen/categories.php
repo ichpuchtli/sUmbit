@@ -1,0 +1,1 @@
+<li <?php echo $class; ?>><a href="<?php echo _SITE._CATEGORY.$category['seftitle']; ?>" <?php echo $class; ?>><?php echo $category['title'];?><span></span></a></li>

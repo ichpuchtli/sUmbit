@@ -1,0 +1,44 @@
+*{ margin:0px; padding:0px}
+body{ background:#222 url(headergrunge.jpg) repeat-x; font-family:Verdana,Arial,sans-serif; font-size:75%; color:#fff}
+fieldset{border:1px solid #444;padding:10px;clear:both}
+a img{border:none}
+a{text-decoration:none}
+input,textarea{ background:#333;padding:3px; color:#aaa; border:2px solid #555}
+textarea {width:80%;height:120px;}
+.hidden{text-indent:-9000px}
+.br{clear:both}
+.pink{color:#D01A71}
+.small{font-size:x-small}
+.large{font-size:xx-large}
+.right{float:right}
+.left{float:left}
+.center{margin:0 auto;text-align:center}
+#container{width:80%}
+#logo{float:left}
+#logo h1{ margin-top:30px; margin-left:10px; letter-spacing:-0.1em}
+#search{ margin-top:30px; float:right}
+#navlist{float:left;width:20%;margin-top:30px;margin-left:5px;font-size:1.2em}
+#navlist ul{ list-style:none}
+#navlist li a{ display:block; height:25px; padding:9px; margin:5px; background:inherit; border-right:4px solid #444; color:#999; text-transform:lowercase; font-size:0.9em}
+#navlist li a:hover{ color:#f4f4f4; background:#333; border-right:4px solid #D01A71}
+#navlist li .active{ color:#999; background:#333; border-right:4px solid #444}
+#content{float:right;width:76%;margin-top:30px}
+#content ul {padding:10px;}
+#content ul li {padding:4px;}
+#content a{color:#D01A71;font-weight:bold}
+#content a:hover{ color:#fff; background:#D01A71; font-weight:bold}
+#content p{margin-bottom:10px;color:#f4f4f4}
+#content h3{text-indent:20px;color:#999;letter-spacing:-0.1em;margin-bottom:4px}
+#content h3:hover{color:#fff}
+#footer{ text-align:center; color:#666; margin-top:30px; font-size:0.9em}
+#footer p{color:#666}
+#footer a{color:#666}
+#footer a:hover{color:#f4f4f4}
+.pagination ul {text-align:right;margin:5px;list-style:none;}
+.pagination ul li{background:none;list-style: none;display: inline;}
+.pagination ul li a{padding: 3px 8px;margin:4px;color:#dbebf2;border-top: solid 1px #685952;}
+.pagination ul li a:hover,.pagination ul li a.currentpage{border-top:1px #fff solid; color:#fff;}
+.pagination ul li a.disabled, .pagination  ul li a.disabled:hover{cursor: default;color: #ddd;font-weight: normal;}
+.pagination ul li a.prevnext{font-weight: bold;}
+#commentslist ol li , .search_results ol li{margin:5px 0px 0px;padding:5px 0px 5px 10px;border:1px solid #444;}
+ 

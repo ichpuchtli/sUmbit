@@ -1,0 +1,1 @@
+<div class="billBoard"><?php echo l($message); ?></div>

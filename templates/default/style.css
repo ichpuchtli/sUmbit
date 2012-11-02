@@ -1,0 +1,47 @@
+*{margin:0;padding:0}
+a{color:#36C}
+a:hover{color:#06F}
+a img{border:none}
+fieldset{border:1px solid #eee;padding:5px;clear:both}
+body{background:#E7E7E7;color:#444;font:normal 64.5% helvetica,sans-serif;margin-top:10px}
+input,textarea{color:#555;padding:2px;}
+textarea{width:70%;height:120px;}
+ul,ol{padding:10px}
+ul li {padding:5px;}
+p {margin-bottom:10px;}
+h1{font-size:1.8em;margin-bottom:4px}
+h1,h2,h3{color:#367EA6;margin-bottom:10px}
+form{padding:0 0 6px 8px}
+input.search{width:90%;}
+.clearer{clear:both}
+.breadcrumbs{padding:2px;margin-bottom:10px;}
+.container{background:#FAFAFA;margin:0 auto;width:80%;border:1px solid #eee}
+.header{background:url(img/header.gif) repeat-x}
+.title h1{color:#FFF;font:normal 3em Verdana,sans-serif;height:150px;line-height:150px;margin-bottom:8px;text-align:center}
+.main{padding:5px}
+.sidenav h1,.sidenav ul{padding-left:12px}
+.sidenav{background:#EEE;border:1px solid #E5E5E5;float:left;width:20%}
+.sidenav h1{color:#666;font-size:1.2em;margin-top:1.2em}
+.sidenav ul{margin:0;padding:0}
+.sidenav li{list-style:none;border-top:none;margin:0px}
+.sidenav li a{color:#4283B9;display:block;font-size:1.2em;padding:3px 6px 3px 14px;text-decoration:none}
+.sidenav li a:hover{color:#111}
+.info_line ul{float:right}
+.info_line ul li{display:inline;margin:6px}
+.content{float:right;width:79%;font-size:1.2em;}
+.info_line{border:1px solid #EEE;background:#FFF;margin-bottom:18px}
+.content .descr{color:#333;margin-bottom:6px}
+.content li{list-style:circle;margin-left:18px}
+.footer{background:#FFF;border:1px solid #EEE;color:#666;font-size:1.1em;margin:0 auto;text-align:center;padding:6px;width:75%;clear:both;}
+.footer a{color:#36C;text-decoration:none}
+.footer a:hover{color:#06F;text-decoration:underline}
+.pagination ul {text-align:right;margin:5px;list-style:none;}
+.pagination ul li{list-style-type: none;display: inline;margin:0px;}
+.pagination ul li a{padding: 3px 8px;margin:4px;border: solid 1px #eee;}
+.pagination ul li a:hover{border:solid 1px #ccc;}
+.pagination ul li a.currentpage{font-weight: bold;cursor: default;border: solid 1px #ccc;}
+.pagination ul li a.disabled, .pagination  ul li a.disabled:hover{cursor: default;color: #ddd;font-weight: normal;}
+.pagination ul li a.prevnext{font-weight: bold;}
+#commentslist ol li , .search_results ol li{list-style:decimal;background:#f9f9f9;border:1px solid #eee;margin:5px 0px 0px;padding:5px 0px 5px 10px;}
+#commentslist ol  li:hover, #commentslist ol li.odd:hover, .search_results ol li:hover{border:1px solid #ddd;}
+#commentslist ol li.odd {background:#F1F1F1;border:1px solid #eee;}
